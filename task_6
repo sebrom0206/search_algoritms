@@ -1,0 +1,12 @@
+
+Vary size, probability, seed in file make_grid.py. Which of the heuristics you have
+programmed do you think works best?
+Are any of the heuristics admissible so that you
+have an A* algorithm.
+
+The heuristic that calculates the difference between the x-coordinates and y-coordinates
+of each position (node) and the target position, and then use the larger of these two values times three.
+- the difference_times_three heuristic from task 5 works the best when looking at the time perspective.
+
+The heuristic´s DifferenceH and EuclideanH are admissible algorithms for A*,
+their cost is lower than or equal to the actual cost of reaching the goal state.
